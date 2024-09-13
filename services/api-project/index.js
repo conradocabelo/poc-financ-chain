@@ -1,5 +1,5 @@
 const createItem = require('./handlers/createItem');
-const getItem = require('./handlers/getItem');
+const getItem    = require('./handlers/getItem');
 const updateItem = require('./handlers/updateItem');
 const deleteItem = require('./handlers/deleteItem');
 
