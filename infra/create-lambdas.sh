@@ -1,0 +1,2 @@
+zip -r  ../services/service-project/code.zip .
+aws lambda create-function --function-name opr-project-crud --region us-east-1 --runtime nodejs20.x --handler index.handler --role arn:aws:iam::214810397138:role/lambda-financ-chain --zip-file fileb://../services/service-project/code.zip
